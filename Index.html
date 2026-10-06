@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ing. Daniela Ruíz | Portafolio</title>
+  <meta name="description" content="Portafolio de Daniela Ruíz, estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Inika:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <a class="navbar__brand" href="#inicio">Ing. Daniela Ruíz</a>
+
+    <button class="navbar__toggle" id="navToggle" type="button"
+            aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navbar__menu" id="navMenu" aria-label="Navegación principal">
+      <a href="#inicio" class="nav-link">Inicio</a>
+      <a href="#proyectos" class="nav-link">Proyectos</a>
+      <a href="#habilidades" class="nav-link">Habilidades</a>
+      <a href="#aspiraciones" class="nav-link">Aspiraciones</a>
+      <a href="#contacto" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="page">
+
+    <section class="hero" id="inicio">
+      <div class="hero__text">
+        <h1 class="hero__title">Hola, yo soy<br />Daniela Ruíz</h1>
+        <p class="hero__desc">
+          Soy estudiante de la Universidad Politécnica de Chiapas en la carrera de
+          Ingeniería en Tecnologías de la Información e Innovación Digital, te invito
+          a echar un vistazo a mi página.
+        </p>
+      </div>
+
+      <div class="hero__photo">
+        <img src="img/foto.jpeg" alt="Fotografía de Daniela Ruíz" />
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <h2 class="section__title">Mis proyectos</h2>
+
+      <a class="project-card"
+         href="https://github.com/Dannyruizt/Sistema-de-gesti-n-de-Bodega"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Abrir el proyecto Adm Bodega en GitHub">
+        <span class="project-card__name">Adm Bodega</span>
+        <span class="project-card__desc">Sistema de gestión y control de productos</span>
+      </a>
+    </section>
+
+    <section class="section" id="habilidades">
+      <h2 class="section__title">Habilidades</h2>
+
+      <ul class="skills">
+        <li class="skill">
+          <img src="img/c.png" alt="" class="skill__icon skill__icon--c" />
+          <span class="skill__name">C</span>
+        </li>
+        <li class="skill">
+          <img src="img/cpp.png" alt="" class="skill__icon skill__icon--cpp" />
+          <span class="skill__name">C++</span>
+        </li>
+        <li class="skill">
+          <img src="img/java.png" alt="" class="skill__icon skill__icon--java" />
+          <span class="skill__name">Java</span>
+        </li>
+        <li class="skill">
+          <img src="img/react.png" alt="" class="skill__icon skill__icon--react" />
+          <span class="skill__name">React.js</span>
+        </li>
+        <li class="skill">
+          <img src="img/javascript.png" alt="" class="skill__icon skill__icon--js" />
+          <span class="skill__name">JavaScript</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="aspiraciones">
+      <h2 class="section__title">Aspiraciones</h2>
+
+      <div class="aspirations">
+        <p>Una de mis metas es dedicarme al diseño de software o inclusive al desarrollo completo</p>
+        <p>de aplicaciones móviles y/o hacer ilustraciones para videojuegos.</p>
+      </div>
+    </section>
+
+    <section class="section section--last" id="contacto">
+      <h2 class="section__title">Contacto</h2>
+
+      <ul class="contact">
+        <li class="contact__item">
+          <img src="img/email.png" alt="Correo" class="contact__icon" />
+          <span>dannxrzt@gmail.com</span>
+        </li>
+        <li class="contact__item">
+          <img src="img/linkedin.png" alt="LinkedIn" class="contact__icon" />
+          <a href="https://www.linkedin.com/in/daniela-ru%C3%ADz-054625436"
+             target="_blank" rel="noopener noreferrer">Daniela Ruíz</a>
+        </li>
+        <li class="contact__item">
+          <img src="img/steam.png" alt="Steam" class="contact__icon" />
+          <a href="https://steamcommunity.com/profiles/76561198771357125/"
+             target="_blank" rel="noopener noreferrer">Dannxrzt</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
